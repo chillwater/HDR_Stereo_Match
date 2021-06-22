@@ -1,0 +1,148 @@
+>> runStereoMatcher
+Warning: matlabpool will be removed in a future release.
+To query the size of an already started parallel pool, query the 'NumWorkers'
+property of the pool.
+To check if a pool is already started use 'isempty(gcp('nocreate'))'. 
+Warning: matlabpool will be removed in a future release.
+Use parpool instead. 
+Starting matlabpool using the 'local' profile ... connected to 4 workers.
+
+testimage =
+
+    45
+
+Undefined function 'HDRtoGray' for input arguments of type 'char'.
+
+Error in example_referenceForCVPR11 (line 121)
+ Il_g = HDRtoGray(view1_file_name);
+
+Error in runStereoMatcher (line 46)
+    example_referenceForCVPR11(i,value,testimage,r,eps,thresColor,thresGrad,gamma,threshBorder,gamma_c,gamma_d,r_median,UseParallelToolbox); 
+>> runStereoMatcher
+Warning: matlabpool will be removed in a future release.
+To query the size of an already started parallel pool, query the 'NumWorkers'
+property of the pool.
+To check if a pool is already started use 'isempty(gcp('nocreate'))'. 
+Warning: matlabpool will be removed in a future release.
+To shutdown a parallel pool use 'delete(gcp('nocreate'))' instead. 
+Parallel pool using the 'local' profile is shutting down.
+Did not find any pre-existing communicating jobs created by parpool.
+
+Warning: matlabpool will be removed in a future release.
+Use parpool instead. 
+Starting matlabpool using the 'local' profile ... connected to 4 workers.
+
+testimage =
+
+    45
+
+Took 2098.58 second
+
+testimage =
+
+    46
+
+Took 2143.78 second
+
+testimage =
+
+    47
+
+Took 2082.30 second
+
+testimage =
+
+    48
+
+Took 2091.60 second
+
+testimage =
+
+    49
+
+Took 2095.32 second
+
+testimage =
+
+    50
+
+Took 2088.53 second
+
+testimage =
+
+    51
+
+Took 2091.00 second
+
+testimage =
+
+    52
+
+Took 2105.87 second
+
+testimage =
+
+    53
+
+Took 2116.22 second
+
+testimage =
+
+    54
+
+Took 2090.05 second
+
+testimage =
+
+    55
+
+Took 2095.71 second
+
+testimage =
+
+    56
+
+Took 2100.92 second
+
+testimage =
+
+    57
+
+Took 2096.21 second
+
+testimage =
+
+    58
+
+Took 2094.07 second
+
+testimage =
+
+    59
+
+Took 2104.30 second
+
+testimage =
+
+    60
+
+Took 2049.47 second
+
+testimage =
+
+    61
+
+Took 2045.04 second
+
+testimage =
+
+    62
+
+Took 2035.66 second
+
+testimage =
+
+    63
+
+Took 2053.09 second
+>> 

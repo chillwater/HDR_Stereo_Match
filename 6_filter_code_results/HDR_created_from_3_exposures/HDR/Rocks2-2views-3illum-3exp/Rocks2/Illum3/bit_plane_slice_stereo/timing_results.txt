@@ -1,0 +1,435 @@
+>> runStereoMatcher
+Warning: matlabpool will be removed in a future release.
+To query the size of an already started parallel pool, query the 'NumWorkers'
+property of the pool.
+To check if a pool is already started use 'isempty(gcp('nocreate'))'. 
+Warning: matlabpool will be removed in a future release.
+Use parpool instead. 
+Starting matlabpool using the 'local' profile ... connected to 4 workers.
+
+testimage =
+
+    45
+
+Undefined function 'HDRtoGray' for input arguments of type 'char'.
+
+Error in example_referenceForCVPR11 (line 121)
+ Il_g = HDRtoGray(view1_file_name);
+
+Error in runStereoMatcher (line 46)
+    example_referenceForCVPR11(i,value,testimage,r,eps,thresColor,thresGrad,gamma,threshBorder,gamma_c,gamma_d,r_median,UseParallelToolbox); 
+>> runStereoMatcher
+Warning: matlabpool will be removed in a future release.
+To query the size of an already started parallel pool, query the 'NumWorkers'
+property of the pool.
+To check if a pool is already started use 'isempty(gcp('nocreate'))'. 
+Warning: matlabpool will be removed in a future release.
+To shutdown a parallel pool use 'delete(gcp('nocreate'))' instead. 
+Parallel pool using the 'local' profile is shutting down.
+Did not find any pre-existing communicating jobs created by parpool.
+
+Warning: matlabpool will be removed in a future release.
+Use parpool instead. 
+Starting matlabpool using the 'local' profile ... connected to 4 workers.
+
+testimage =
+
+    45
+
+Took 2098.58 second
+
+testimage =
+
+    46
+
+Took 2143.78 second
+
+testimage =
+
+    47
+
+Took 2082.30 second
+
+testimage =
+
+    48
+
+Took 2091.60 second
+
+testimage =
+
+    49
+
+Took 2095.32 second
+
+testimage =
+
+    50
+
+Took 2088.53 second
+
+testimage =
+
+    51
+
+Took 2091.00 second
+
+testimage =
+
+    52
+
+Took 2105.87 second
+
+testimage =
+
+    53
+
+Took 2116.22 second
+
+testimage =
+
+    54
+
+Took 2090.05 second
+
+testimage =
+
+    55
+
+Took 2095.71 second
+
+testimage =
+
+    56
+
+Took 2100.92 second
+
+testimage =
+
+    57
+
+Took 2096.21 second
+
+testimage =
+
+    58
+
+Took 2094.07 second
+
+testimage =
+
+    59
+
+Took 2104.30 second
+
+testimage =
+
+    60
+
+Took 2049.47 second
+
+testimage =
+
+    61
+
+Took 2045.04 second
+
+testimage =
+
+    62
+
+Took 2035.66 second
+
+testimage =
+
+    63
+
+Took 2053.09 second
+>> runStereoMatcher
+Warning: matlabpool will be removed in a future release.
+To query the size of an already started parallel pool, query the 'NumWorkers'
+property of the pool.
+To check if a pool is already started use 'isempty(gcp('nocreate'))'. 
+Warning: matlabpool will be removed in a future release.
+To shutdown a parallel pool use 'delete(gcp('nocreate'))' instead. 
+Parallel pool using the 'local' profile is shutting down.
+Did not find any pre-existing communicating jobs created by parpool.
+
+Warning: matlabpool will be removed in a future release.
+Use parpool instead. 
+Starting matlabpool using the 'local' profile ... 
+Operation terminated by user during
+parallel.internal.pool.InteractiveClient/start (line 356)
+
+
+In parallel.Pool>iStartClient (line 537)
+client.start(poolType , numWorkers, cluster,...
+
+In parallel.Pool.hBuildPool (line 434)
+            iStartClient(client, 'pool', cluster, guiMode, supportRestart,
+            argsList);
+
+In parallel.internal.cluster.MatlabpoolHelper/doOpen (line 329)
+            parallel.Pool.hBuildPool(ConstructorArgs{:});
+
+In parallel.internal.cluster.MatlabpoolHelper.doMatlabpool (line 129)
+                MatlabpoolHelper.doOpen(sched, parsedArgs.ActionArgs);
+
+In matlabpool (line 142)
+    matlabpoolOut = MatlabpoolHelper.doMatlabpool(parsedArgs, ...
+
+In runStereoMatcher (line 19)
+    matlabpool(ParallelWorkers)
+ 
+Parallel pool using the 'local' profile is shutting down.
+>> 
+>> runStereoMatcher
+Warning: matlabpool will be removed in a future release.
+To query the size of an already started parallel pool, query the 'NumWorkers'
+property of the pool.
+To check if a pool is already started use 'isempty(gcp('nocreate'))'. 
+Warning: matlabpool will be removed in a future release.
+Use parpool instead. 
+Starting matlabpool using the 'local' profile ... connected to 4 workers.
+
+testimage =
+
+    45
+
+Took 2117.25 second
+
+testimage =
+
+    46
+
+Took 2109.22 second
+
+testimage =
+
+    47
+
+Took 2115.26 second
+
+testimage =
+
+    48
+
+Took 2121.57 second
+
+testimage =
+
+    49
+
+Took 2110.06 second
+
+testimage =
+
+    50
+
+Took 2104.85 second
+
+testimage =
+
+    51
+
+Took 2118.98 second
+
+testimage =
+
+    52
+
+Took 2108.81 second
+
+testimage =
+
+    53
+
+Took 2105.54 second
+
+testimage =
+
+    54
+
+Took 2122.79 second
+
+testimage =
+
+    55
+
+Took 2114.91 second
+
+testimage =
+
+    56
+
+Took 2120.76 second
+
+testimage =
+
+    57
+
+Took 2109.42 second
+
+testimage =
+
+    58
+
+Took 2102.29 second
+
+testimage =
+
+    59
+
+Took 2091.14 second
+
+testimage =
+
+    60
+
+Took 2055.74 second
+
+testimage =
+
+    61
+
+Took 2062.57 second
+
+testimage =
+
+    62
+
+Took 2052.99 second
+
+testimage =
+
+    63
+
+Took 2044.37 second
+>> runStereoMatcher
+Warning: matlabpool will be removed in a future release.
+To query the size of an already started parallel pool, query the 'NumWorkers'
+property of the pool.
+To check if a pool is already started use 'isempty(gcp('nocreate'))'. 
+Warning: matlabpool will be removed in a future release.
+To shutdown a parallel pool use 'delete(gcp('nocreate'))' instead. 
+Parallel pool using the 'local' profile is shutting down.
+Did not find any pre-existing communicating jobs created by parpool.
+
+Warning: matlabpool will be removed in a future release.
+Use parpool instead. 
+Starting matlabpool using the 'local' profile ... connected to 4 workers.
+
+testimage =
+
+    45
+
+Took 2104.26 second
+
+testimage =
+
+    46
+
+Took 2104.22 second
+
+testimage =
+
+    47
+
+Took 2120.03 second
+
+testimage =
+
+    48
+
+Took 2130.78 second
+
+testimage =
+
+    49
+
+Took 2127.45 second
+
+testimage =
+
+    50
+
+Took 2112.63 second
+
+testimage =
+
+    51
+
+Took 2111.64 second
+
+testimage =
+
+    52
+
+Took 2108.25 second
+
+testimage =
+
+    53
+
+Took 2109.42 second
+
+testimage =
+
+    54
+
+Took 2109.47 second
+
+testimage =
+
+    55
+
+Took 2108.25 second
+
+testimage =
+
+    56
+
+Took 2117.31 second
+
+testimage =
+
+    57
+
+Took 2106.35 second
+
+testimage =
+
+    58
+
+Took 2111.11 second
+
+testimage =
+
+    59
+
+Took 2105.63 second
+
+testimage =
+
+    60
+
+Took 2079.58 second
+
+testimage =
+
+    61
+
+Took 2062.18 second
+
+testimage =
+
+    62
+
+Took 2049.06 second
+
+testimage =
+
+    63
+
+Took 2053.53 second
+>> 
