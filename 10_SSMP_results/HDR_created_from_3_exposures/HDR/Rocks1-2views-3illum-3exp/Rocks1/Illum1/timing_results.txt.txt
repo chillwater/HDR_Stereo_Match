@@ -1,0 +1,216 @@
+Warning: matlabpool will be removed in a future release.
+To query the size of an already started parallel pool, query the 'NumWorkers' property of the pool.
+To check if a pool is already started use 'isempty(gcp('nocreate'))'. 
+Warning: matlabpool will be removed in a future release.
+Use parpool instead. 
+Starting matlabpool using the 'local' profile ... connected to 4 workers.
+
+view1_file_name =
+
+view1_slice_45.hdr
+
+
+view5_file_name =
+
+view5_slice_45.hdr
+
+ took 2583.74 second
+
+view1_file_name =
+
+view1_slice_46.hdr
+
+
+view5_file_name =
+
+view5_slice_46.hdr
+
+ took 2429.38 second
+
+view1_file_name =
+
+view1_slice_47.hdr
+
+
+view5_file_name =
+
+view5_slice_47.hdr
+
+ took 2511.18 second
+
+view1_file_name =
+
+view1_slice_48.hdr
+
+
+view5_file_name =
+
+view5_slice_48.hdr
+
+ took 2522.07 second
+
+view1_file_name =
+
+view1_slice_49.hdr
+
+
+view5_file_name =
+
+view5_slice_49.hdr
+
+ took 2599.14 second
+
+view1_file_name =
+
+view1_slice_50.hdr
+
+
+view5_file_name =
+
+view5_slice_50.hdr
+
+ took 2518.42 second
+
+view1_file_name =
+
+view1_slice_51.hdr
+
+
+view5_file_name =
+
+view5_slice_51.hdr
+
+ took 2655.95 second
+
+view1_file_name =
+
+view1_slice_52.hdr
+
+
+view5_file_name =
+
+view5_slice_52.hdr
+
+ took 2518.16 second
+
+view1_file_name =
+
+view1_slice_53.hdr
+
+
+view5_file_name =
+
+view5_slice_53.hdr
+
+ took 2465.01 second
+
+view1_file_name =
+
+view1_slice_54.hdr
+
+
+view5_file_name =
+
+view5_slice_54.hdr
+
+ took 2550.65 second
+
+view1_file_name =
+
+view1_slice_55.hdr
+
+
+view5_file_name =
+
+view5_slice_55.hdr
+
+ took 2701.82 second
+
+view1_file_name =
+
+view1_slice_56.hdr
+
+
+view5_file_name =
+
+view5_slice_56.hdr
+
+ took 3224.67 second
+
+view1_file_name =
+
+view1_slice_57.hdr
+
+
+view5_file_name =
+
+view5_slice_57.hdr
+
+ took 5101.57 second
+
+view1_file_name =
+
+view1_slice_58.hdr
+
+
+view5_file_name =
+
+view5_slice_58.hdr
+
+ took 2620.85 second
+
+view1_file_name =
+
+view1_slice_59.hdr
+
+
+view5_file_name =
+
+view5_slice_59.hdr
+
+ took 2492.26 second
+
+view1_file_name =
+
+view1_slice_60.hdr
+
+
+view5_file_name =
+
+view5_slice_60.hdr
+
+ took 2620.45 second
+
+view1_file_name =
+
+view1_slice_61.hdr
+
+
+view5_file_name =
+
+view5_slice_61.hdr
+
+ took 2654.78 second
+
+view1_file_name =
+
+view1_slice_62.hdr
+
+
+view5_file_name =
+
+view5_slice_62.hdr
+
+ took 2627.76 second
+
+view1_file_name =
+
+view1_slice_63.hdr
+
+
+view5_file_name =
+
+view5_slice_63.hdr
+
+ took 2657.03 second
+>> 

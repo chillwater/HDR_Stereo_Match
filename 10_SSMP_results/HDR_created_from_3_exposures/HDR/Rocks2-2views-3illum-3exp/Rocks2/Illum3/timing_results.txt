@@ -1,0 +1,129 @@
+Warning: matlabpool will be removed in a future release.
+To query the size of an already started parallel pool, query the 'NumWorkers'
+property of the pool.
+To check if a pool is already started use 'isempty(gcp('nocreate'))'. 
+Warning: matlabpool will be removed in a future release.
+Use parpool instead. 
+Starting matlabpool using the 'local' profile ... connected to 4 workers.
+
+view1_file_name =
+
+view1_slice_53.hdr
+
+
+view5_file_name =
+
+view5_slice_53.hdr
+
+ took 2735.59 second
+
+view1_file_name =
+
+view1_slice_54.hdr
+
+
+view5_file_name =
+
+view5_slice_54.hdr
+
+ took 2779.64 second
+
+view1_file_name =
+
+view1_slice_55.hdr
+
+
+view5_file_name =
+
+view5_slice_55.hdr
+
+ took 2803.42 second
+
+view1_file_name =
+
+view1_slice_56.hdr
+
+
+view5_file_name =
+
+view5_slice_56.hdr
+
+ took 2513.26 second
+
+view1_file_name =
+
+view1_slice_57.hdr
+
+
+view5_file_name =
+
+view5_slice_57.hdr
+
+ took 2744.89 second
+
+view1_file_name =
+
+view1_slice_58.hdr
+
+
+view5_file_name =
+
+view5_slice_58.hdr
+
+ took 2647.79 second
+
+view1_file_name =
+
+view1_slice_59.hdr
+
+
+view5_file_name =
+
+view5_slice_59.hdr
+
+ took 2665.61 second
+
+view1_file_name =
+
+view1_slice_60.hdr
+
+
+view5_file_name =
+
+view5_slice_60.hdr
+
+ took 2778.65 second
+
+view1_file_name =
+
+view1_slice_61.hdr
+
+
+view5_file_name =
+
+view5_slice_61.hdr
+
+ took 2697.74 second
+
+view1_file_name =
+
+view1_slice_62.hdr
+
+
+view5_file_name =
+
+view5_slice_62.hdr
+
+ took 2840.81 second
+
+view1_file_name =
+
+view1_slice_63.hdr
+
+
+view5_file_name =
+
+view5_slice_63.hdr
+
+ took 2775.74 second
+>> 

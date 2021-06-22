@@ -1,0 +1,305 @@
+Warning: matlabpool will be removed in a future release.
+To query the size of an already started parallel pool, query the 'NumWorkers' property of the pool.
+To check if a pool is already started use 'isempty(gcp('nocreate'))'. 
+Warning: matlabpool will be removed in a future release.
+To shutdown a parallel pool use 'delete(gcp('nocreate'))' instead. 
+Parallel pool using the 'local' profile is shutting down.
+Did not find any pre-existing communicating jobs created by parpool.
+
+Warning: matlabpool will be removed in a future release.
+Use parpool instead. 
+Starting matlabpool using the 'local' profile ... connected to 4 workers.
+
+view1_file_name =
+
+view1_slice_45.hdr
+
+
+view5_file_name =
+
+view5_slice_45.hdr
+
+ took 2596.09 second
+
+view1_file_name =
+
+view1_slice_46.hdr
+
+
+view5_file_name =
+
+view5_slice_46.hdr
+
+ took 2623.93 second
+
+view1_file_name =
+
+view1_slice_47.hdr
+
+
+view5_file_name =
+
+view5_slice_47.hdr
+
+ took 2715.26 second
+
+view1_file_name =
+
+view1_slice_48.hdr
+
+
+view5_file_name =
+
+view5_slice_48.hdr
+
+ took 2662.58 second
+
+view1_file_name =
+
+view1_slice_49.hdr
+
+
+view5_file_name =
+
+view5_slice_49.hdr
+
+ took 2714.30 second
+
+view1_file_name =
+
+view1_slice_50.hdr
+
+
+view5_file_name =
+
+view5_slice_50.hdr
+
+ took 2635.26 second
+
+view1_file_name =
+
+view1_slice_51.hdr
+
+
+view5_file_name =
+
+view5_slice_51.hdr
+
+ took 2557.80 second
+
+view1_file_name =
+
+view1_slice_52.hdr
+
+
+view5_file_name =
+
+view5_slice_52.hdr
+
+ took 2636.89 second
+
+view1_file_name =
+
+view1_slice_53.hdr
+
+
+view5_file_name =
+
+view5_slice_53.hdr
+
+ took 2542.09 second
+
+view1_file_name =
+
+view1_slice_54.hdr
+
+
+view5_file_name =
+
+view5_slice_54.hdr
+
+ took 2552.23 second
+
+view1_file_name =
+
+view1_slice_55.hdr
+
+
+view5_file_name =
+
+view5_slice_55.hdr
+
+ took 2491.78 second
+
+view1_file_name =
+
+view1_slice_56.hdr
+
+
+view5_file_name =
+
+view5_slice_56.hdr
+
+ took 2700.51 second
+
+view1_file_name =
+
+view1_slice_57.hdr
+
+
+view5_file_name =
+
+view5_slice_57.hdr
+
+ took 2482.96 second
+
+view1_file_name =
+
+view1_slice_58.hdr
+
+
+view5_file_name =
+
+view5_slice_58.hdr
+
+ took 2851.42 second
+
+view1_file_name =
+
+view1_slice_59.hdr
+
+
+view5_file_name =
+
+view5_slice_59.hdr
+
+ took 2813.37 second
+
+view1_file_name =
+
+view1_slice_60.hdr
+
+
+view5_file_name =
+
+view5_slice_60.hdr
+
+Warning: matlabpool will be removed in a future release.
+To query the size of an already started parallel pool, query the 'NumWorkers'
+property of the pool.
+To check if a pool is already started use 'isempty(gcp('nocreate'))'. 
+Warning: matlabpool will be removed in a future release.
+To shutdown a parallel pool use 'delete(gcp('nocreate'))' instead. 
+Parallel pool using the 'local' profile is shutting down.
+Did not find any pre-existing communicating jobs created by parpool.
+
+Warning: matlabpool will be removed in a future release.
+Use parpool instead. 
+Starting matlabpool using the 'local' profile ... connected to 4 workers.
+
+view1_file_name =
+
+view1_slice_60.hdr
+
+
+view5_file_name =
+
+view5_slice_60.hdr
+
+ took 2594.80 second
+
+view1_file_name =
+
+view1_slice_61.hdr
+
+
+view5_file_name =
+
+view5_slice_61.hdr
+
+ took 2998.57 second
+
+view1_file_name =
+
+view1_slice_62.hdr
+
+
+view5_file_name =
+
+view5_slice_62.hdr
+
+ took 2851.37 second
+
+view1_file_name =
+
+view1_slice_63.hdr
+
+
+view5_file_name =
+
+view5_slice_63.hdr
+
+ took 2993.18 second
+>> Q
+
+Operation terminated by user during RWR_filtering (line 15)
+
+
+In ProbabilityInferWithRWR>(parfor body) (line 102)
+        q1 = RWR_filtering(W1,p1,X,Y,nei,restart_c,sigma_c);
+
+In parallel_function>make_general_channel/channel_general (line 914)
+                    O = F(C{:});
+
+In remoteParallelFunction (line 38)
+        out = parallel.internal.pool.serialize(feval(channel, channelArgs{:}));
+
+Operation terminated by user during RWR_filtering (line 15)
+
+
+In ProbabilityInferWithRWR>(parfor body) (line 102)
+        q1 = RWR_filtering(W1,p1,X,Y,nei,restart_c,sigma_c);
+
+In parallel_function>make_general_channel/channel_general (line 914)
+                    O = F(C{:});
+
+In remoteParallelFunction (line 38)
+        out = parallel.internal.pool.serialize(feval(channel, channelArgs{:}));
+
+Operation terminated by user during RWR_filtering (line 15)
+
+
+In ProbabilityInferWithRWR>(parfor body) (line 98)
+        q = RWR_filtering(W,p,X,Y,nei,restart_c,sigma_c);  
+
+In parallel_function>make_general_channel/channel_general (line 914)
+                    O = F(C{:});
+
+In remoteParallelFunction (line 38)
+        out = parallel.internal.pool.serialize(feval(channel, channelArgs{:}));
+
+Operation terminated by user during ProbabilityInferWithRWR>(parfor body) (line 104)
+
+
+In parallel_function>make_general_channel/channel_general (line 914)
+                    O = F(C{:});
+
+In remoteParallelFunction (line 38)
+        out = parallel.internal.pool.serialize(feval(channel, channelArgs{:}));
+
+Operation terminated by user during distcomp.remoteparfor/getCompleteIntervals (line 119)
+
+
+In parallel_function>distributed_execution (line 820)
+        [tags, out] = P.getCompleteIntervals(chunkSize);
+
+In parallel_function (line 587)
+        R = distributed_execution(...
+
+In ProbabilityInferWithRWR (line 96)
+    parfor d=0:numDisp-1 % use parallel for loop when using the parallel computing toolbox
+
+In runStereoMatcher (line 71)
+[Prob_l, Prob_r] = ProbabilityInferWithRWR(img_l, img_r, numDisp,
+thresColor,thresGrad,gamma,threshBorder,gamma_c,gamma_d,r_median,UseParallelToolbox,nei,restart_c,sigma_c); 
+>> 

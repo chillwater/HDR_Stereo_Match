@@ -1,0 +1,241 @@
+Warning: matlabpool will be removed in a future release.
+To query the size of an already started parallel pool, query the 'NumWorkers'
+property of the pool.
+To check if a pool is already started use 'isempty(gcp('nocreate'))'. 
+Warning: matlabpool will be removed in a future release.
+To shutdown a parallel pool use 'delete(gcp('nocreate'))' instead. 
+Parallel pool using the 'local' profile is shutting down.
+Did not find any pre-existing communicating jobs created by parpool.
+
+Warning: matlabpool will be removed in a future release.
+Use parpool instead. 
+Starting matlabpool using the 'local' profile ... connected to 4 workers.
+
+view1_file_name =
+
+view1_slice_45.hdr
+
+
+view5_file_name =
+
+view5_slice_45.hdr
+
+ took 2579.09 second
+
+view1_file_name =
+
+view1_slice_46.hdr
+
+
+view5_file_name =
+
+view5_slice_46.hdr
+
+ took 2302.10 second
+
+view1_file_name =
+
+view1_slice_47.hdr
+
+
+view5_file_name =
+
+view5_slice_47.hdr
+
+ took 2382.48 second
+
+view1_file_name =
+
+view1_slice_48.hdr
+
+
+view5_file_name =
+
+view5_slice_48.hdr
+
+ took 2483.01 second
+
+view1_file_name =
+
+view1_slice_49.hdr
+
+
+view5_file_name =
+
+view5_slice_49.hdr
+
+ took 2351.34 second
+
+view1_file_name =
+
+view1_slice_50.hdr
+
+
+view5_file_name =
+
+view5_slice_50.hdr
+
+ took 2348.09 second
+
+view1_file_name =
+
+view1_slice_51.hdr
+
+
+view5_file_name =
+
+view5_slice_51.hdr
+
+ took 2329.60 second
+
+view1_file_name =
+
+view1_slice_52.hdr
+
+
+view5_file_name =
+
+view5_slice_52.hdr
+
+ took 2469.28 second
+
+view1_file_name =
+
+view1_slice_53.hdr
+
+
+view5_file_name =
+
+view5_slice_53.hdr
+
+ took 2378.47 second
+
+view1_file_name =
+
+view1_slice_54.hdr
+
+
+view5_file_name =
+
+view5_slice_54.hdr
+
+ took 2425.99 second
+
+view1_file_name =
+
+view1_slice_55.hdr
+
+
+view5_file_name =
+
+view5_slice_55.hdr
+
+ took 2392.36 second
+
+view1_file_name =
+
+view1_slice_56.hdr
+
+
+view5_file_name =
+
+view5_slice_56.hdr
+
+ took 2617.11 second
+
+view1_file_name =
+
+view1_slice_57.hdr
+
+
+view5_file_name =
+
+view5_slice_57.hdr
+
+ took 2389.86 second
+
+view1_file_name =
+
+view1_slice_58.hdr
+
+
+view5_file_name =
+
+view5_slice_58.hdr
+
+ took 2546.83 second
+
+view1_file_name =
+
+view1_slice_59.hdr
+
+
+view5_file_name =
+
+view5_slice_59.hdr
+
+ took 3110.68 second
+
+view1_file_name =
+
+view1_slice_60.hdr
+
+
+view5_file_name =
+
+view5_slice_60.hdr
+
+ took 2836.26 second
+
+view1_file_name =
+
+view1_slice_61.hdr
+
+
+view5_file_name =
+
+view5_slice_61.hdr
+
+Operation terminated by user during ProbabilityInferWithRWR (line 50)
+
+view1_file_name =
+
+view1_slice_61.hdr
+
+
+view5_file_name =
+
+view5_slice_61.hdr
+
+ took 2196.63 second
+
+view1_file_name =
+
+view1_slice_62.hdr
+
+
+view5_file_name =
+
+view5_slice_62.hdr
+
+ took 2768.41 second
+
+view1_file_name =
+
+view1_slice_63.hdr
+
+
+view5_file_name =
+
+view5_slice_63.hdr
+
+ took 2775.14 second
+
+In runStereoMatcher (line 70)
+[Prob_l, Prob_r] = ProbabilityInferWithRWR(img_l, img_r, numDisp,
+thresColor,thresGrad,gamma,threshBorder,gamma_c,gamma_d,r_median,UseParallelToolbox,nei,restart_c,sigma_c); 
+
+>> 
+>> 
+>> 
+>> 

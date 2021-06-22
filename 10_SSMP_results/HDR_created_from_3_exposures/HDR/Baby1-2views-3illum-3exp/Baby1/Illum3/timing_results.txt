@@ -1,0 +1,219 @@
+Warning: matlabpool will be removed in a future release.
+To query the size of an already started parallel pool, query the 'NumWorkers'
+property of the pool.
+To check if a pool is already started use 'isempty(gcp('nocreate'))'. 
+Warning: matlabpool will be removed in a future release.
+To shutdown a parallel pool use 'delete(gcp('nocreate'))' instead. 
+Parallel pool using the 'local' profile is shutting down.
+Did not find any pre-existing communicating jobs created by parpool.
+
+Warning: matlabpool will be removed in a future release.
+Use parpool instead. 
+Starting matlabpool using the 'local' profile ... connected to 4 workers.
+
+view1_file_name =
+
+view1_slice_45.hdr
+
+
+view5_file_name =
+
+view5_slice_45.hdr
+
+ took 1826.27 second
+
+view1_file_name =
+
+view1_slice_46.hdr
+
+
+view5_file_name =
+
+view5_slice_46.hdr
+
+ took 2092.79 second
+
+view1_file_name =
+
+view1_slice_47.hdr
+
+
+view5_file_name =
+
+view5_slice_47.hdr
+
+ took 1938.32 second
+
+view1_file_name =
+
+view1_slice_48.hdr
+
+
+view5_file_name =
+
+view5_slice_48.hdr
+
+ took 2169.62 second
+
+view1_file_name =
+
+view1_slice_49.hdr
+
+
+view5_file_name =
+
+view5_slice_49.hdr
+
+ took 2122.90 second
+
+view1_file_name =
+
+view1_slice_50.hdr
+
+
+view5_file_name =
+
+view5_slice_50.hdr
+
+ took 1901.47 second
+
+view1_file_name =
+
+view1_slice_51.hdr
+
+
+view5_file_name =
+
+view5_slice_51.hdr
+
+ took 2296.07 second
+
+view1_file_name =
+
+view1_slice_52.hdr
+
+
+view5_file_name =
+
+view5_slice_52.hdr
+
+ took 1941.00 second
+
+view1_file_name =
+
+view1_slice_53.hdr
+
+
+view5_file_name =
+
+view5_slice_53.hdr
+
+ took 1929.52 second
+
+view1_file_name =
+
+view1_slice_54.hdr
+
+
+view5_file_name =
+
+view5_slice_54.hdr
+
+ took 2024.70 second
+
+view1_file_name =
+
+view1_slice_55.hdr
+
+
+view5_file_name =
+
+view5_slice_55.hdr
+
+ took 2109.72 second
+
+view1_file_name =
+
+view1_slice_56.hdr
+
+
+view5_file_name =
+
+view5_slice_56.hdr
+
+ took 1921.13 second
+
+view1_file_name =
+
+view1_slice_57.hdr
+
+
+view5_file_name =
+
+view5_slice_57.hdr
+
+ took 2324.34 second
+
+view1_file_name =
+
+view1_slice_58.hdr
+
+
+view5_file_name =
+
+view5_slice_58.hdr
+
+ took 2753.58 second
+
+view1_file_name =
+
+view1_slice_59.hdr
+
+
+view5_file_name =
+
+view5_slice_59.hdr
+
+ took 2106.80 second
+
+view1_file_name =
+
+view1_slice_60.hdr
+
+
+view5_file_name =
+
+view5_slice_60.hdr
+
+ took 2099.56 second
+
+view1_file_name =
+
+view1_slice_61.hdr
+
+
+view5_file_name =
+
+view5_slice_61.hdr
+
+ took 2011.26 second
+
+view1_file_name =
+
+view1_slice_62.hdr
+
+
+view5_file_name =
+
+view5_slice_62.hdr
+
+ took 1888.07 second
+
+view1_file_name =
+
+view1_slice_63.hdr
+
+
+view5_file_name =
+
+view5_slice_63.hdr
