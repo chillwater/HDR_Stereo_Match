@@ -1,0 +1,823 @@
+>> C:\FTP_files\Lab\Weekly Meetings\20140507\final_results\SSMP\Aloe-2views-3illum-3exp\Aloe\Illum1
+>> 
+>>        view1=(hdrread('view1_Original.hdr')./256);
+       view5=(hdrread('view5_Original.hdr')./256);
+>> hdrwrite(view1,'view1_Shifted.hdr');
+>> 45_dis=imread('disparity_45.png')
+ 45_dis=imread('disparity_45.png')
+   |
+Error: The input character is not valid in MATLAB statements or expressions.
+ 
+>> dis_45=imread('disparity_45.png');
+>> dis_46=imread('disparity_46.png');
+>> isequal(dis_45,dis_46)
+
+ans =
+
+     1
+
+>> dis_51=imread('disparity_51.png');
+>> isequal(dis_45,dis_51)
+
+ans =
+
+     1
+
+>> dis_55=imread('disparity_55.png');
+>> isequal(dis_45,dis_55)
+
+ans =
+
+     0
+
+>> cd('bit_plane_slice_stereo')
+>> automation
+>> automation
+>> semiGlobalMatchMATLAB_HDR_script
+Undefined function 'ListSubfolders' for input arguments of type 'char'.
+
+Error in semiGlobalMatchMATLAB_HDR_script (line 2)
+foldersList=ListSubfolders('.');
+ 
+>> semiGlobalMatchMATLAB_HDR_script
+
+ans =
+
+Aloe
+
+
+ans =
+
+Baby1
+
+
+ans =
+
+Cloth3
+
+
+ans =
+
+Midd1
+
+
+ans =
+
+Midd2
+
+Index exceeds matrix dimensions.
+
+Error in semiGlobalMatchMATLAB_HDR_script (line 23)
+       cd(subsubfolderList{j});
+ 
+>> semiGlobalMatchMATLAB_HDR_script
+
+ans =
+
+Aloe
+
+
+ans =
+
+Baby1
+
+
+ans =
+
+Cloth3
+
+
+ans =
+
+Midd1
+
+
+ans =
+
+Midd2
+
+Index exceeds matrix dimensions.
+
+Error in semiGlobalMatchMATLAB_HDR_script (line 23)
+       cd(subsubfolderList{j});
+ 
+>> semiGlobalMatchMATLAB_HDR_script
+
+ans =
+
+Aloe
+
+
+ans =
+
+Baby1
+
+
+ans =
+
+Cloth3
+
+
+ans =
+
+Midd1
+
+
+ans =
+
+Midd2
+
+Index exceeds matrix dimensions.
+
+Error in semiGlobalMatchMATLAB_HDR_script (line 23)
+       cd(subsubfolderList{j});
+ 
+>> semiGlobalMatchMATLAB_HDR_script
+>> semiGlobalMatchMATLAB_HDR_script
+>> semiGlobalMatchMATLAB_HDR_script
+
+ans =
+
+Aloe
+
+
+ans =
+
+Baby1
+
+
+ans =
+
+Cloth3
+
+
+ans =
+
+Midd1
+
+
+ans =
+
+Midd2
+
+
+ans =
+
+Monopoly
+
+
+ans =
+
+Reindeer
+
+
+ans =
+
+Rocks1
+
+
+ans =
+
+Rocks2
+
+
+ans =
+
+Wood1
+
+>> semiGlobalMatchMATLAB_HDR_script
+
+ans =
+
+Aloe
+
+
+ans =
+
+Baby1
+
+
+ans =
+
+Cloth3
+
+
+ans =
+
+Midd1
+
+
+ans =
+
+Midd2
+
+
+ans =
+
+Monopoly
+
+
+ans =
+
+Reindeer
+
+
+ans =
+
+Rocks1
+
+
+ans =
+
+Rocks2
+
+
+ans =
+
+Wood1
+
+>> semiGlobalMatchMATLAB_HDR_script
+
+ans =
+
+Aloe
+
+
+ans =
+
+Baby1
+
+
+ans =
+
+Cloth3
+
+
+ans =
+
+Midd1
+
+
+ans =
+
+Midd2
+
+
+ans =
+
+Monopoly
+
+
+ans =
+
+Reindeer
+
+
+ans =
+
+Rocks1
+
+
+ans =
+
+Rocks2
+
+
+ans =
+
+Wood1
+
+>> semiGlobalMatchMATLAB_HDR_script
+
+ans =
+
+Aloe
+
+Undefined function or variable "image".
+
+Error in HDRtoGray (line 4)
+outputImage = .299*image(:,:,1) + .587*i(:,:,2) + .114*i(:,:,3);
+
+Error in semiGlobalMatchMATLAB_HDR_script (line 38)
+               view1=HDRtoGray(FileName1);
+ 
+>> semiGlobalMatchMATLAB_HDR_script
+
+ans =
+
+Aloe
+
+Undefined function or variable 'disparity_'.
+
+Error in semiGlobalMatchMATLAB_HDR_script (line 45)
+               imwrite(uint8(disparityMap),
+               strcat(disparity_,num2str(images),'.png'));
+ 
+>> semiGlobalMatchMATLAB_HDR_script
+
+ans =
+
+Aloe
+
+Took 1.05 second
+Took 1.04 second
+Took 1.05 second
+Took 1.05 second
+Took 1.04 second
+Took 1.04 second
+Took 1.09 second
+Took 1.04 second
+Took 1.11 second
+Took 1.10 second
+Took 1.05 second
+Took 1.04 second
+Took 1.04 second
+Took 1.03 second
+Took 1.03 second
+Took 1.03 second
+Took 1.01 second
+Took 1.02 second
+Took 1.03 second
+Took 1.04 second
+Took 1.03 second
+Took 1.03 second
+Took 1.06 second
+Took 1.03 second
+Took 1.04 second
+Took 1.08 second
+Took 1.06 second
+Took 1.04 second
+Took 1.04 second
+Took 1.04 second
+Took 1.04 second
+Took 1.04 second
+Took 1.04 second
+Took 1.07 second
+Took 1.05 second
+Took 1.03 second
+Took 1.03 second
+Took 1.08 second
+Took 1.04 second
+Took 1.04 second
+Took 1.03 second
+Took 1.03 second
+Took 1.04 second
+Took 1.04 second
+Took 1.03 second
+Took 1.04 second
+Took 1.04 second
+Took 1.03 second
+Took 1.04 second
+Took 1.03 second
+Took 1.03 second
+Took 1.04 second
+Took 1.03 second
+Took 1.03 second
+Took 1.00 second
+Took 0.98 second
+Took 1.03 second
+
+ans =
+
+Baby1
+
+Took 0.79 second
+Took 0.73 second
+Took 0.73 second
+Took 0.76 second
+Took 0.74 second
+Took 0.73 second
+Took 0.73 second
+Took 0.72 second
+Took 0.73 second
+Took 0.73 second
+Took 0.73 second
+Took 0.73 second
+Took 0.72 second
+Took 0.73 second
+Took 0.72 second
+Took 0.71 second
+Took 0.71 second
+Took 0.74 second
+Took 0.71 second
+Took 0.72 second
+Took 0.73 second
+Took 0.72 second
+Took 0.72 second
+Took 0.73 second
+Took 0.73 second
+Took 0.72 second
+Took 0.73 second
+Took 0.73 second
+Took 0.73 second
+Took 0.75 second
+Took 0.73 second
+Took 0.72 second
+Took 0.72 second
+Took 0.72 second
+Took 0.72 second
+Took 0.70 second
+Took 0.74 second
+Took 0.71 second
+Took 0.72 second
+Took 0.72 second
+Took 0.73 second
+Took 0.72 second
+Took 0.77 second
+Took 0.73 second
+Took 0.73 second
+Took 0.72 second
+Took 0.76 second
+Took 0.73 second
+Took 0.73 second
+Took 0.73 second
+Took 0.75 second
+Took 0.73 second
+Took 0.72 second
+Took 0.72 second
+Took 0.70 second
+Took 0.71 second
+Took 0.71 second
+
+ans =
+
+Cloth3
+
+Took 0.84 second
+Took 0.84 second
+Took 0.87 second
+Took 0.84 second
+Took 0.84 second
+Took 0.83 second
+Took 0.84 second
+Took 0.84 second
+Took 0.84 second
+Took 0.84 second
+Took 0.84 second
+Took 0.84 second
+Took 0.84 second
+Took 0.84 second
+Took 0.84 second
+Took 0.82 second
+Took 0.81 second
+Took 0.81 second
+Took 0.82 second
+Took 0.84 second
+Took 0.84 second
+Took 0.84 second
+Took 0.84 second
+Took 0.84 second
+Took 0.84 second
+Took 0.84 second
+Took 0.84 second
+Took 0.84 second
+Took 0.84 second
+Took 0.84 second
+Took 0.84 second
+Took 0.84 second
+Took 0.84 second
+Took 0.84 second
+Took 0.84 second
+Took 0.83 second
+Took 0.81 second
+Took 0.79 second
+Took 0.84 second
+Took 0.84 second
+Took 0.84 second
+Took 0.84 second
+Took 0.85 second
+Took 0.84 second
+Took 0.84 second
+Took 0.84 second
+Took 0.84 second
+Took 0.84 second
+Took 0.84 second
+Took 0.84 second
+Took 0.85 second
+Took 0.84 second
+Took 0.84 second
+Took 0.84 second
+Took 0.84 second
+Took 0.82 second
+Took 0.79 second
+
+ans =
+
+Midd1
+
+Took 1.16 second
+Took 1.17 second
+Took 1.16 second
+Took 1.17 second
+Took 1.17 second
+Took 1.17 second
+Took 1.17 second
+Took 1.16 second
+Took 1.17 second
+Took 1.16 second
+Took 1.17 second
+Took 1.17 second
+Took 1.16 second
+Took 1.17 second
+Took 1.17 second
+Took 1.17 second
+Took 1.21 second
+Took 1.20 second
+Took 1.20 second
+Took 1.23 second
+Took 1.22 second
+Took 1.22 second
+Took 1.23 second
+Took 1.23 second
+Took 1.23 second
+Took 1.23 second
+Took 1.23 second
+Took 1.23 second
+Took 1.22 second
+Took 1.23 second
+Took 1.23 second
+Took 1.23 second
+Took 1.21 second
+Took 1.19 second
+Took 1.19 second
+Took 1.19 second
+Took 1.19 second
+Took 1.18 second
+Took 1.22 second
+Took 1.22 second
+Took 1.22 second
+Took 1.22 second
+Took 1.22 second
+Took 1.23 second
+Took 1.22 second
+Took 1.22 second
+Took 1.22 second
+Took 1.23 second
+Took 1.22 second
+Took 1.22 second
+Took 1.22 second
+Took 1.21 second
+Took 1.21 second
+Took 1.20 second
+Took 1.19 second
+Took 1.20 second
+Took 1.16 second
+
+ans =
+
+Midd2
+
+Took 1.10 second
+Took 1.10 second
+Took 1.10 second
+Took 1.10 second
+Took 1.11 second
+Took 1.10 second
+Took 1.10 second
+Took 1.09 second
+Took 1.10 second
+Took 1.11 second
+Took 1.14 second
+Took 1.10 second
+Took 1.10 second
+Took 1.08 second
+Took 1.07 second
+Took 1.06 second
+Took 1.06 second
+Took 1.05 second
+Took 1.06 second
+
+ans =
+
+Monopoly
+
+Took 0.90 second
+Took 0.91 second
+Took 0.90 second
+Took 0.90 second
+Took 0.90 second
+Took 0.91 second
+Took 0.90 second
+Took 0.90 second
+Took 0.90 second
+Took 0.90 second
+Took 0.91 second
+Took 0.90 second
+Took 0.90 second
+Took 0.96 second
+Took 0.90 second
+Took 0.89 second
+Took 0.89 second
+Took 0.89 second
+Took 0.90 second
+Took 0.91 second
+Took 0.91 second
+Took 0.92 second
+Took 0.92 second
+Took 0.91 second
+Took 0.92 second
+Took 0.92 second
+Took 0.91 second
+Took 0.91 second
+Took 0.91 second
+Took 0.91 second
+Took 0.91 second
+Took 0.91 second
+Took 0.91 second
+Took 0.91 second
+Took 0.91 second
+Took 0.90 second
+Took 0.90 second
+Took 0.88 second
+Took 0.91 second
+Took 0.91 second
+Took 0.91 second
+Took 0.91 second
+Took 0.91 second
+Took 0.90 second
+Took 0.91 second
+Took 0.92 second
+Took 0.91 second
+Took 0.91 second
+Took 0.91 second
+Took 0.91 second
+Took 0.91 second
+Took 0.92 second
+Took 0.91 second
+Took 0.90 second
+Took 0.90 second
+Took 0.90 second
+Took 0.90 second
+
+ans =
+
+Reindeer
+
+Took 1.13 second
+Took 1.14 second
+Took 1.14 second
+Took 1.14 second
+Took 1.14 second
+Took 1.14 second
+Took 1.14 second
+Took 1.14 second
+Took 1.15 second
+Took 1.14 second
+Took 1.13 second
+Took 1.13 second
+Took 1.14 second
+Took 1.13 second
+Took 1.13 second
+Took 1.12 second
+Took 1.10 second
+Took 1.08 second
+Took 1.12 second
+
+ans =
+
+Rocks1
+
+Took 0.89 second
+Took 0.89 second
+Took 0.88 second
+Took 0.89 second
+Took 0.89 second
+Took 0.88 second
+Took 0.88 second
+Took 0.89 second
+Took 0.88 second
+Took 0.89 second
+Took 0.89 second
+Took 0.89 second
+Took 0.89 second
+Took 0.89 second
+Took 0.87 second
+Took 0.85 second
+Took 0.87 second
+Took 0.86 second
+Took 0.86 second
+Took 0.89 second
+Took 0.89 second
+Took 0.89 second
+Took 0.88 second
+Took 0.88 second
+Took 0.89 second
+Took 0.89 second
+Took 0.89 second
+Took 0.88 second
+Took 0.89 second
+Took 0.88 second
+Took 0.88 second
+Took 0.89 second
+Took 0.88 second
+Took 0.89 second
+Took 0.87 second
+Took 0.83 second
+Took 0.87 second
+Took 0.86 second
+Took 0.89 second
+Took 0.89 second
+Took 0.89 second
+Took 0.89 second
+Took 0.93 second
+Took 0.89 second
+Took 0.89 second
+Took 0.89 second
+Took 0.90 second
+Took 0.89 second
+Took 0.89 second
+Took 0.89 second
+Took 0.89 second
+Took 0.88 second
+Took 0.89 second
+Took 0.88 second
+Took 0.86 second
+Took 0.85 second
+Took 0.86 second
+
+ans =
+
+Rocks2
+
+Took 0.89 second
+Took 0.90 second
+Took 0.89 second
+Took 0.89 second
+Took 0.89 second
+Took 0.89 second
+Took 0.89 second
+Took 0.90 second
+Took 0.88 second
+Took 0.92 second
+Took 0.89 second
+Took 0.89 second
+Took 0.89 second
+Took 0.89 second
+Took 0.89 second
+Took 0.87 second
+Took 0.86 second
+Took 0.86 second
+Took 0.87 second
+Took 0.89 second
+Took 0.88 second
+Took 0.89 second
+Took 0.89 second
+Took 0.89 second
+Took 0.89 second
+Took 0.89 second
+Took 0.89 second
+Took 0.89 second
+Took 0.89 second
+Took 0.89 second
+Took 0.89 second
+Took 0.89 second
+Took 0.89 second
+Took 0.89 second
+Took 0.86 second
+Took 0.86 second
+Took 0.86 second
+Took 0.87 second
+Took 0.89 second
+Took 0.89 second
+Took 0.89 second
+Took 0.90 second
+Took 0.90 second
+Took 0.89 second
+Took 0.89 second
+Took 0.89 second
+Took 0.89 second
+Took 0.89 second
+Took 0.90 second
+Took 0.90 second
+Took 0.90 second
+Took 0.89 second
+Took 0.89 second
+Took 0.88 second
+Took 0.86 second
+Took 0.86 second
+Took 0.87 second
+
+ans =
+
+Wood1
+
+Took 1.18 second
+Took 1.18 second
+Took 1.18 second
+Took 1.18 second
+Took 1.18 second
+Took 1.19 second
+Took 1.18 second
+Took 1.18 second
+Took 1.18 second
+Took 1.18 second
+Took 1.19 second
+Took 1.18 second
+Took 1.18 second
+Took 1.18 second
+Took 1.17 second
+Took 1.19 second
+Took 1.19 second
+Took 1.18 second
+Took 1.18 second
+>> 
