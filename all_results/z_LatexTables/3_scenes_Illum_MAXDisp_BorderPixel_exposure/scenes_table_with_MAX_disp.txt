@@ -1,0 +1,17 @@
+\begin{table}[h]
+\begin{tabular}{|c|ccc|c|}
+\hline
+\textbf{Dataset Scene Name} & \multicolumn{3}{c|}{\textbf{Used Illuminations}} & \textbf{max disparity value} \\ \hline
+\textbf{Aloe}               & Illum1         & Illum2         & Illum3         & 211                          \\ \cline{1-1} \cline{5-5} 
+\textbf{Baby1}              & Illum1         & Illum2         & Illum3         & 137                          \\ \cline{1-1} \cline{5-5} 
+\textbf{Cloth3}             & Illum1         & Illum2         & Illum3         & 166                          \\ \cline{1-1} \cline{5-5} 
+\textbf{Rocks1}             & Illum1         & Illum2         & Illum3         & 170                          \\ \cline{1-1} \cline{5-5} 
+\textbf{Rocks2}             & Illum1         & Illum2         & Illum3         & 168                          \\ \cline{1-1} \cline{5-5} 
+\textbf{}                   &                &                &                &                              \\ \cline{1-1} \cline{5-5} 
+\textbf{Reindeer}           & Illum1         &                &                & 201                          \\ \cline{1-1} \cline{5-5} 
+\textbf{Wood1}              &                & Illum2         &                & 215                          \\ \cline{1-1} \cline{5-5} 
+\textbf{Midd1}              &                & Illum2         &                & 207                          \\ \cline{1-1} \cline{5-5} 
+\textbf{Midd2}              &                & Illum2         &                & 186                          \\ \cline{1-1} \cline{5-5} 
+\textbf{Monopoly}           &                & Illum2         &                & 160                          \\ \hline
+\end{tabular}
+\end{table}

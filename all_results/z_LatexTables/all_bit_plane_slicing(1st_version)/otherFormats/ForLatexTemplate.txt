@@ -1,0 +1,23 @@
+\begin{table}[h]
+\begin{tabular}{|c|ccc|ccc|ccc|ccc|}
+\hline
+\textbf{}         & \textbf{}                                & \textbf{Aloe}                          & \textbf{}     & \textbf{}           & \textbf{Aloe}     & \textbf{}     & \textbf{}           & \textbf{Aloe}     & \textbf{}     & \textbf{}           & \textbf{Baby1}    & \textbf{}     \\
+\textbf{}         & \textbf{}                                & \textbf{Illum1}                        & \textbf{}     & \textbf{}           & \textbf{Illum2}   & \textbf{}     & \textbf{}           & \textbf{Illum3}   & \textbf{}     & \textbf{}           & \textbf{Illum1}   & \textbf{}     \\ \hline
+\textbf{bit-rate} & \multicolumn{1}{c|}{\textbf{CostFilter}} & \multicolumn{1}{c|}{\textbf{SemiGlob}} & \textbf{SSMP} & \textbf{CostFilter} & \textbf{SemiGlob} & \textbf{SSMP} & \textbf{CostFilter} & \textbf{SemiGlob} & \textbf{SSMP} & \textbf{CostFilter} & \textbf{SemiGlob} & \textbf{SSMP} \\ \hline
+\textbf{1}        \\ \cline{1-1}
+\textbf{2}        \\ \cline{1-1}
+\textbf{3}        \\ \cline{1-1}
+\textbf{4}        \\ \cline{1-1}
+\textbf{5}        \\ \cline{1-1}
+\textbf{6}        \\ \cline{1-1}
+\textbf{7}        \\ \cline{1-1}
+\textbf{8}        \\ \cline{1-1}
+\textbf{9}        \\ \cline{1-1}
+\textbf{10}       \\ \cline{1-1}
+\textbf{11}       \\ \cline{1-1}
+\textbf{12}       \\ \cline{1-1}
+\textbf{13}       \\ \cline{1-1}
+\textbf{14}       \\ \cline{1-1}
+\textbf{15}       \\ \hline
+\end{tabular}
+\end{table}
